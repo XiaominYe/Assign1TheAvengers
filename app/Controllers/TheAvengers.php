@@ -14,7 +14,7 @@
              // tell it about the substitions
                  return $parser->setData(['records' => $records])  
              // and have it render the template with those  
-                   ->render('placeslist');       
+                   ->render('heroslist');       
         }   
          public function showme($id)    
          {

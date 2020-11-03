@@ -6,17 +6,18 @@ class Heros extends \CodeIgniter\Controller {
 
 public function index() {            
 // connect to the model        
-$hero = new \App\Models\Heros();           
+$heros = new \App\Models\Heros();           
 // retrieve all the records  
 $records = $heros->findAll();
-// JSON encode and return the result     
+// JSON encode and return the result   
+
 return json_encode($records);
 } 
 
  public function showme($id)    
          {
            // connect to the model 
-              $hero = new \App\Models\Heros();   
+              $heros = new \App\Models\Heros();   
           // retrieve all the records   
             $record = $heros->find($id);    
             
@@ -25,7 +26,7 @@ return json_encode($records);
               // tell it about the substitions  
                return $parser->setData($record)      
                   // and have it render the template with those  
-                 ->render('oneplace'); 
+                 ->render('onehero'); 
              } 
  
 
