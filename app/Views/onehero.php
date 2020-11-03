@@ -9,10 +9,10 @@
 		<p><strong>Name:</strong> {name}</p>
 		<p><strong>Description:</strong> {description}</p>
 		<p><strong>Person site:</strong> {link}</p>
-                <p><strong>Team:</strong> {team}</p>
-                <p><strong>Specialty:</strong> {specialty}</p>
-                <p><strong>FavoriteFood:</strong> {food}</p>
-                <p><strong>Position:</strong> {}</p>
+                <p><strong>Team:</strong>The Avengers</p>
+                <p><strong>Specialty:</strong>Specialty</p>
+                <p><strong>FavoriteFood:</strong> hanburger</p>
+                <p><strong>Position:</strong> American Marvel Comics Superhero Team</p>
 		<p><img src="/image/{image}"/></p>
 		<p><a href="/Heros">Heros</a></p>
 	</body>
